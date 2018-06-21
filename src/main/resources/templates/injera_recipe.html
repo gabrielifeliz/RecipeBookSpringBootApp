@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <th:block th:replace="base :: headstuff"></th:block>
+    <title>Injera</title>
+</head>
+
+<body>
+<nav th:replace="base :: navbar"></nav>
+<div id="injera" class="container">
+	<div class="container recipe-container">
+		<h1>Injera Recipe </h1>
+		<img class="flags" src="/img/ethiopia_flag.jpg" alt="Ethiopia Flag" align="center">
+		<p>Ethiopia</p>
+		<h2>Ingredients: </h2>
+		<ul><li>¾ cup teff flour (found in health food shops) </li></ul>
+		<ul><li> pinch of salt </li></ul>
+		<ul><li> tartar sauce or cocktail sauce </li></ul>
+		<h1>Directions: </h1>
+		<p>** Standing time 2 days **</p>
+		<p>Mix teff with the water. Leave to stand in a covered bowl for a couple of days until it starts to bubble.</p>
+		<p>The mixture should be slightly sour and the consistency of crêpe batter. Stir in the salt.</p>
+		<p>Add a ladle of the mixture to a pre-heated skillet and cook slowly until air bubbles rise to the top.</p>
+		<p>Do not let it brown, and make sure that it is not too thick.</p>
+
+		<h4>Serves 6 people</h4><br/>
+	</div>
+</div>
+<th:block th:replace="base :: jslinks"></th:block>
+</body>
+
+</html>

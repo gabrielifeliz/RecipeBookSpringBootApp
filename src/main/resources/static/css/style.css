@@ -1,0 +1,102 @@
+.navbar-brand {
+    font-family: 'IM Fell English SC', serif;
+}
+
+.jumbotron-fluid
+{
+    background: url("/img/kitchen.jpg");
+    background-position:center;
+}
+
+.text-sm-center {
+    font-family: 'Courgette', cursive;
+    border-radius: 10px;
+    background-color: cornsilk;
+    color: black;
+    padding: 5px;
+}
+
+#crab-cake
+{
+    background: url("/img/crabcake.jpg");
+    background-position:center;
+	font-size: 14pt;
+}
+
+#wings
+{
+    background: url("/img/wings.jpg");
+    background-position:center;
+	font-size: 14pt;
+}
+
+#wings
+{
+    background: url("/img/wings.jpg");
+    background-position:center;
+	font-size: 14pt;
+}
+
+#gimbap
+{
+    background: url("/img/gimbap.jpg");
+    background-position:center;
+	font-size: 14pt;
+}
+
+#pumpkin-rice-noodles
+{
+    background: url("/img/pumpkin_rice_noodles.jpg");
+    background-position:center;
+	font-size: 14pt;
+}
+
+#egg-sauce
+{
+    background: url("/img/egg_sauce.jpg");
+    background-position:center;
+	font-size: 14pt;
+}
+
+#injera
+{
+    background: url("/img/injera.jpg");
+    background-position:center;
+	font-size: 14pt;
+}
+
+
+.flags {
+	 width: 250px;
+	 height: 200px;
+}
+
+.recipe-container
+{
+    background:rgba(255,255,255,0.75);
+	color: black;
+}
+
+
+.carousel-caption {
+	background:rgba(0,0,0,0.65);
+	color: lightyellow;
+}
+
+.foodname {
+	
+	font-family: 'Russo One', sans-serif;
+
+}
+
+.description {
+	
+	font-family: 'Courgette', cursive;	
+
+}
+
+.see-recipe {
+	cursor: pointer;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 16pt;
+}
