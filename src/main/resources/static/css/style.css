@@ -1,3 +1,10 @@
+body {
+    background: url("/img/recipe_book.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+
 .navbar-brand {
     font-family: 'IM Fell English SC', serif;
 }
